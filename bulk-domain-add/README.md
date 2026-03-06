@@ -10,10 +10,10 @@ python3 probely_bulk_add.py -a <API_KEY> -f domains.txt [-o results.txt]
 
 Arguments:
 
-- `-a --api-key`: Your Snyk API & Web token (use the JWT token shown in the docs).
+- `-a --api-key <your api key>` Your Snyk API & Web token (use the JWT token shown in the docs).
    If omitted the script will attempt to use the `SAW_API` environment variable.
-- `-f --file`: Path to a newline-delimited file containing domains to add.
-- `-o --output`: Optional path to append human-readable results.
+- `-f --file <filename>`: Path to a newline-delimited file containing domains to add.
+- `-o --output <filename>`: Optional path to append human-readable results.
 
 Notes:
 
